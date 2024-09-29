@@ -1,8 +1,8 @@
-// let son1 = +prompt("Butun son kiriting:");
-// if (son1 > 0) {
-//   son1 += 1;
-// }
-// console.log(son1);
+ let son1 = +prompt("Butun son kiriting:");
+ if (son1 > 0) {
+   son1 += 1;
+}
+ console.log(son1);
 
 // let son2 = +prompt("Butun son kiriting:");
 // if (son2 > 0) {
@@ -154,55 +154,55 @@
 // console.log("Natija:", natija);
 
 
-let A1 = +prompt("A sonni kiriting:");
-console.log(A1 > 0 ? "A soni musbat" : "A soni musbat emas");
+// let A1 = +prompt("A sonni kiriting:");
+// console.log(A1 > 0 ? "A soni musbat" : "A soni musbat emas");
 
-let A2 = +prompt("A sonni kiriting:");
-console.log(A2 % 2 !== 0 ? "A soni toq" : "A soni juft");
+// let A2 = +prompt("A sonni kiriting:");
+// console.log(A2 % 2 !== 0 ? "A soni toq" : "A soni juft");
 
-let A3 = +prompt("A sonni kiriting:");
-console.log(A3 % 2 === 0 ? "A soni juft" : "A soni toq");
+// let A3 = +prompt("A sonni kiriting:");
+// console.log(A3 % 2 === 0 ? "A soni juft" : "A soni toq");
 
-let A4 = +prompt("A sonni kiriting:");
-let B4 = +prompt("B sonni kiriting:");
-console.log(A4 ** 2 > B4 && B4 <= 3 ? "A^2 va B<=3" : "Shart bajarilmadi");
+// let A4 = +prompt("A sonni kiriting:");
+// let B4 = +prompt("B sonni kiriting:");
+// console.log(A4 ** 2 > B4 && B4 <= 3 ? "A^2 va B<=3" : "Shart bajarilmadi");
 
-let A5 = +prompt("A sonni kiriting:");
-let B5 = +prompt("B sonni kiriting:");
-console.log(A5 >= 0 || B5 < -2 ? "A >= 0 yoki B < -2" : "Shart bajarilmadi");
+// let A5 = +prompt("A sonni kiriting:");
+// let B5 = +prompt("B sonni kiriting:");
+// console.log(A5 >= 0 || B5 < -2 ? "A >= 0 yoki B < -2" : "Shart bajarilmadi");
 
-let A6 = +prompt("A sonni kiriting:");
-let B6 = +prompt("B sonni kiriting:");
-let C6 = +prompt("C sonni kiriting:");
-console.log(A6 <= B6 && B6 <= C6 ? "A <= B <= C" : "Shart bajarilmadi");
+// let A6 = +prompt("A sonni kiriting:");
+// let B6 = +prompt("B sonni kiriting:");
+// let C6 = +prompt("C sonni kiriting:");
+// console.log(A6 <= B6 && B6 <= C6 ? "A <= B <= C" : "Shart bajarilmadi");
 
-let A8 = +prompt("A sonni kiriting:");
-let B8 = +prompt("B sonni kiriting:");
-console.log(A8 % 2 !== 0 && B8 % 2 !== 0 ? "A va B sonlari toq" : "A va B sonlari toq emas");
+// let A8 = +prompt("A sonni kiriting:");
+// let B8 = +prompt("B sonni kiriting:");
+// console.log(A8 % 2 !== 0 && B8 % 2 !== 0 ? "A va B sonlari toq" : "A va B sonlari toq emas");
 
-let A9 = +prompt("A sonni kiriting:");
-let B9 = +prompt("B sonni kiriting:");
-console.log(A9 % 2 === 0 && B9 % 2 === 0 ? "A va B sonlarining hech biri toq emas" : "Shart bajarilmadi");
+// let A9 = +prompt("A sonni kiriting:");
+// let B9 = +prompt("B sonni kiriting:");
+// console.log(A9 % 2 === 0 && B9 % 2 === 0 ? "A va B sonlarining hech biri toq emas" : "Shart bajarilmadi");
 
-let A10 = +prompt("A sonni kiriting:");
-let B10 = +prompt("B sonni kiriting:");
-console.log((A10 % 2 !== 0 && B10 % 2 === 0) || (A10 % 2 === 0 && B10 % 2 !== 0) ? "A va B sonlaridan faqat bittasi toq" : "Shart bajarilmadi");
+// let A10 = +prompt("A sonni kiriting:");
+// let B10 = +prompt("B sonni kiriting:");
+// console.log((A10 % 2 !== 0 && B10 % 2 === 0) || (A10 % 2 === 0 && B10 % 2 !== 0) ? "A va B sonlaridan faqat bittasi toq" : "Shart bajarilmadi");
 
-// Berilgan ma'lumotlar
-const dollarNarxi = 11000.34; // 1 AQSH dollari
-const yevroNarxi = 12354.03; // 1 yevro
-const samolyotBileti = 500 * dollarNarxi;
-const mehmonxonaTolovi = 250 * dollarNarxi;
-const muzeyVaKongilocharJoyi = 120 * yevroNarxi;
+// // Berilgan ma'lumotlar
+// const dollarNarxi = 11000.34; // 1 AQSH dollari
+// const yevroNarxi = 12354.03; // 1 yevro
+// const samolyotBileti = 500 * dollarNarxi;
+// const mehmonxonaTolovi = 250 * dollarNarxi;
+// const muzeyVaKongilocharJoyi = 120 * yevroNarxi;
 
-let AlisherdaPul = +prompt("Alisherda qancha pul borligini kiriting (so'mda):");
+// let AlisherdaPul = +prompt("Alisherda qancha pul borligini kiriting (so'mda):");
 
-const jamiXarajatlar = samolyotBileti + mehmonxonaTolovi + muzeyVaKongilocharJoyi;
+// const jamiXarajatlar = samolyotBileti + mehmonxonaTolovi + muzeyVaKongilocharJoyi;
 
-// Xarajatlarni hisoblash
-if (AlisherdaPul >= jamiXarajatlar) {
-    console.log("Oq yo'l, Alisher!");
-} else {
-    console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
-}
+// // Xarajatlarni hisoblash
+// if (AlisherdaPul >= jamiXarajatlar) {
+//     console.log("Oq yo'l, Alisher!");
+// } else {
+//     console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
+// }
 
